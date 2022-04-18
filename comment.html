@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.ckeditor.com/4.10.1/standard/ckeditor.js"></script>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+           <!-- fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+           <!--Import Google Icon Font-->
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!-- Compiled and minified CSS -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+          <!-- Compiled and minified JavaScript -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          <title>Document</title>
+      </head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="blue ">
+            <div class="container">
+              <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">MYadmin</a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a href="index.html">Dashboard</a></li>
+                  <li><a href="post.html">Posts</a></li>
+                  <li><a href="categories.html">Categories</a></li>
+                  <li><a href="comment.html">Comments</a></li>
+                  <li><a href="users.html">Users</a></li>
+                  <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <ul id="slide-out" class="sidenav">
+            <li>
+                <div class="user-view">
+              <div class="background">
+                <img src="p.jpg">
+              </div>
+              <a href="#user"><img class="circle" src="IMG_6408.JPG" style="height: 150px;"></a>
+              <a href="#name"><span class="white-text name">Hannata</span></a>
+              <a href="#email"><span class="white-text email">laouanaklihannata@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="/index.html"><i class="material-icons">view_quilt</i>Dashboard</a></li>
+        <li><a href="index.html">Dashboard</a></li>
+              <li><a href="post.html">Posts</a></li>
+              <li><a href="categories.html">Categories</a></li>
+              <li><a href="comment.html">Comments</a></li>
+              <li><a href="users.html">Users</a></li>
+              <div class="divider"></div>
+            </li>
+            <li><a class="subheader">Account controls</a></li>
+            <li><a class="waves-effect" href="#!">Logout</a></li>
+          </ul>
+    </header>
+    <section>
+        <div class="container">
+            <div class="card">
+                <h3>Comments</h3>
+                <div class="">
+                   <ul class="collection">
+                       <li class="collection-item avatar">
+                         <img src="images.jpg" alt="" class="circle">
+                         
+                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, voluptate!  </p>
+                         <i class="material-icons right green-text">check</i>
+                         <i class="material-icons right red-text">clear</i>
+                         <p><span class="green-text">Approve:</span><span class="red-text">Deny</span></p>
+                       </li>
+        
+                       <li class="collection-item avatar">
+                           <img src="download.jpg" alt="" class="circle">
+                           
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, fugiat? </p>
+                           <i class="material-icons right green-text">check</i>
+                           <i class="material-icons right red-text">clear</i>
+                           <p><span class="green-text">Approve:</span><span class="red-text">Deny</span></p>
+                         </li>
+        
+                         <li class="collection-item avatar">
+                           <img src="avatar-femme.jpg" alt="" class="circle">
+                          
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, fugiat? </p>
+                           <i class="material-icons right green-text">check</i>
+                           <i class="material-icons right red-text">clear</i>
+                           <p><span class="green-text">Approve:</span><span class="red-text">Deny</span></p>
+                         </li>  
+                         <li class="collection-item avatar">
+                           <img src="avatar-femme.jpg" alt="" class="circle">
+                          
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, fugiat? </p>
+                           <i class="material-icons right green-text">check</i>
+                           <i class="material-icons right red-text">clear</i>
+                           <p><span class="green-text">Approve:</span><span class="red-text">Deny</span></p>
+                         </li>  
+                         <li class="collection-item avatar">
+                            <div class="btn-group me-2" role="group" aria-label="First group" style="margin-top: 5%;">
+                                <button type="button" class="btn blue">Previous</button>
+                                <button type="button" class="btn blue">1</button>
+                                <button type="button" class="btn blue">2</button>
+                                <button type="button" class="btn blue">3</button>
+                                <button type="button" class="btn blue">Next</button>
+                              </div>
+                         </li>  
+                </div>
+            </div> 
+        
+            
+        </div>
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            
+          </div>
+    </section>
+    <footer>
+        <section>
+            <div class="container-fluid  center blue " style="height:100px ;">
+                <p class="white-text "> MyAdmin codeloccol Copyright @2022 by Hannata</p>
+            </div>
+        </section>
+    </footer>
+   
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.fixed-action-btn').floatingActionButton();
+            $('.modal').modal();
+            $('select').formSelect();
+        }); 
+    </script>
+</body>
+</html>
